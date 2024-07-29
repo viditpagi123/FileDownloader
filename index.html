@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>File Downloader</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>File Downloader</h1>
+            <p>Paste the URL of an image, video, or PDF to download.</p>
+        </header>
+        <!-- Form adjusted to remove the action attribute since it's not needed here -->
+        <form id="downloadForm">
+            <!-- Added id to the input and button for more specific targeting if needed -->
+            <input type="url" id="fileUrl" placeholder="Place file URL here" required>
+            <button type="button" id="downloadBtn">Download File</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
